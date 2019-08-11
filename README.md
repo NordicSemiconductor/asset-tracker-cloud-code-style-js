@@ -31,7 +31,7 @@ Update your `package.json`:
       "git add"
     ],
     "*.{md,json,yaml,yml,js}": [
-      "prettier --write --config",
+      "prettier --write",
       "git add"
     ]
   }
