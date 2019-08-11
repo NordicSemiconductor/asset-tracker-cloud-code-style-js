@@ -3,16 +3,6 @@
   "endOfLine": "lf",
   "overrides": [
     {
-      "files": "*.ts",
-      "options": {
-        "parser": "typescript",
-        "singleQuote": true,
-        "trailingComma": "all",
-        "useTabs": true,
-        "semi": false
-      }
-    },
-    {
       "files": "*.js",
       "options": {
         "parser": "babel",
@@ -27,12 +17,6 @@
       "options": {
         "parser": "markdown",
         "proseWrap": "always"
-      }
-    },
-    {
-      "files": ".prettierrc,*.json,*.eslintrc",
-      "options": {
-        "parser": "json"
       }
     },
     {
