@@ -1,14 +1,14 @@
 {
-  "name": "@bifravst/eslint-config",
+  "name": "@bifravst/code-style",
   "version": "0.0.0-development",
-  "description": "Shared ESLint configuration for all Bifravst projects",
+  "description": "Code style definitions for all Bifravst projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bifravst/eslint-config.git"
+    "url": "git+https://github.com/bifravst/code-style.git"
   },
   "bugs": {
-    "url": "https://github.com/bifravst/eslint-config/issues"
+    "url": "https://github.com/bifravst/code-style/issues"
   },
   "homepage": "https://bifravst.github.io/",
   "keywords": [
