@@ -23,7 +23,8 @@
     "@bifravst/eslint-config-typescript": "^1.0.0",
     "eslint": "^5.16.0",
     "lint-staged": "^9.2.1",
-    "prettier": "^1.18.0"
+    "prettier": "^1.18.0",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
