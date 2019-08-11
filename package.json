@@ -62,6 +62,7 @@
     "LICENSE",
     "README.md",
     ".prettierrc.js",
-    "tsconfig.json"
+    "tsconfig.json",
+    "templates"
   ]
 }

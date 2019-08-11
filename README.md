@@ -12,3 +12,33 @@ Code style definitions for all Bifravst projects.
 - ESLint configuration (with
   [TypeScript support](https://github.com/typescript-eslint/typescript-eslint))
 - Prettier configuration
+
+## Usage
+
+Update your `package.json`:
+
+```json
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "eslint --ext .js,.ts",
+      "git add"
+    ],
+    "*.{md,json,yaml,yml,js}": [
+      "prettier --write --config",
+      "git add"
+    ]
+  }
+}
+```
+
+Then:
+
+    npm i --save-dev @bifravst/code-style
+    cp node_modules/@bifravst/code-style/* ./
