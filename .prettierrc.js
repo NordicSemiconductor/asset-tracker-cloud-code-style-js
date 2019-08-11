@@ -3,6 +3,16 @@ module.exports = {
 	endOfLine: 'lf',
 	overrides: [
 		{
+			files: '*.ts',
+			options: {
+				parser: 'typescript',
+				singleQuote: true,
+				trailingComma: 'all',
+				useTabs: true,
+				semi: false,
+			},
+		},
+		{
 			files: '*.js',
 			options: {
 				parser: 'babel',
