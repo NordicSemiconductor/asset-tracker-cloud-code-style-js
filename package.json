@@ -61,7 +61,7 @@
     "index.js",
     "LICENSE",
     "README.md",
-    ".prettierrc",
+    ".prettierrc.js",
     "tsconfig.json"
   ]
 }
