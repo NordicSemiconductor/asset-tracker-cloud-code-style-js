@@ -2,7 +2,6 @@
   "name": "@bifravst/code-style",
   "version": "0.0.0-development",
   "description": "Code style definitions for all Bifravst projects.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bifravst/code-style.git"
@@ -21,12 +20,10 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "MIT",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
+    "@bifravst/eslint-config-typescript": "^1.0.0",
     "eslint": "^5.16.0",
-    "eslint-config-prettier": "^6.0.0",
-    "prettier": "^1.18.0",
-    "lint-staged": "^9.2.1"
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
