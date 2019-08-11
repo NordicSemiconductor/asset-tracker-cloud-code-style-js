@@ -4,7 +4,6 @@
     "target": "es2018",
     "lib": ["es2018"],
     "strict": true,
-    "outDir": "dist/",
     "declaration": true,
     "skipLibCheck": true,
     "noUnusedParameters": true,
