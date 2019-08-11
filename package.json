@@ -22,17 +22,16 @@
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "eslint-config-prettier": "^6.0.0"
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.0.0",
+    "prettier": "^1.18.0",
+    "lint-staged": "^9.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-angular": "^8.1.0",
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "eslint": "^6.1.0",
-    "husky": "^3.0.1",
-    "lint-staged": "^9.2.1",
-    "prettier": "^1.18.0"
+    "husky": "^3.0.1"
   },
   "husky": {
     "hooks": {
