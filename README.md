@@ -41,4 +41,5 @@ Update your `package.json`:
 Then:
 
     npm i --save-dev @bifravst/code-style
-    cp node_modules/@bifravst/code-style/* ./
+    cp node_modules/@bifravst/code-style/templates/* ./
+    cp node_modules/@bifravst/code-style/templates/.* ./
