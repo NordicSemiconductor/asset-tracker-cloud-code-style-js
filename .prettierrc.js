@@ -30,7 +30,7 @@ module.exports = {
 			},
 		},
 		{
-			files: '*.yml,*yaml',
+			files: '*.{yml,yaml}',
 			options: {
 				parser: 'yaml',
 				proseWrap: 'always',
