@@ -3,7 +3,7 @@ module.exports = {
 	endOfLine: 'lf',
 	overrides: [
 		{
-			files: '*.ts',
+			files: '*.{ts,tsx}',
 			options: {
 				parser: 'typescript',
 				singleQuote: true,
