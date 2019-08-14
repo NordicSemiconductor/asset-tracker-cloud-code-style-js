@@ -25,15 +25,8 @@ Update your `package.json`:
     }
   },
   "lint-staged": {
-    "*.ts": [
-      "prettier --write",
-      "eslint --ext .js,.ts",
-      "git add"
-    ],
-    "*.{md,json,yaml,yml,js}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{ts,tsx}": ["prettier --write", "eslint --ext .js,.ts", "git add"],
+    "*.{md,json,yaml,yml,js}": ["prettier --write", "git add"]
   }
 }
 ```
@@ -43,3 +36,23 @@ Then:
     npm i --save-dev @bifravst/code-style
     cp node_modules/@bifravst/code-style/templates/* ./
     cp node_modules/@bifravst/code-style/templates/.* ./
+
+## Use with React
+
+Use this `.eslintrc`
+
+```json
+{
+  "extends": ["@bifravst/eslint-config-typescript", "react-app"]
+}
+```
+
+    npm i --save-dev babel-eslint@10.0.2 eslint-config-react-app@5.0.1 eslint-plugin-flowtype@4.2.0 eslint-plugin-import@2.18.2 eslint-plugin-jsx-a11y@6.2.3 eslint-plugin-react@7.14.3 eslint-plugin-react-app@6.0.0 eslint-plugin-react-hooks@1.7.0
+
+Do not use `tsconfig.json` from code-style.
+
+## Migrating to @bifravst/code-style
+
+For converting projects to use _code-style_:
+
+    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/eslint-config-typescript eslint lint-staged prettier typescript
