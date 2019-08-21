@@ -1,6 +1,6 @@
 # Bifravst Code Style [![npm version](https://img.shields.io/npm/v/@bifravst/code-style.svg)](https://www.npmjs.com/package/@bifravst/code-style)
 
-[![CircleCI](https://circleci.com/gh/bifravst/code-style/tree/saga.svg?style=svg)](https://circleci.com/gh/bifravst/code-style/tree/saga)
+[![GitHub Actions](https://github.com/bifravst/code-style/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/code-style/actions)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bifravst/code-style.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -43,7 +43,7 @@ Use this `.eslintrc`
 
 ```json
 {
-  "extends": ["@bifravst/eslint-config-typescript", "react-app"]
+  "extends": ["@bifravst/code-style", "react-app"]
 }
 ```
 
@@ -55,4 +55,4 @@ Do not use `tsconfig.json` from code-style.
 
 For converting projects to use _code-style_:
 
-    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/eslint-config-typescript eslint lint-staged prettier typescript
+    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/code-style eslint lint-staged prettier typescript
