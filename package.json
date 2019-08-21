@@ -18,7 +18,7 @@
     "NordicSemiconductor"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "dependencies": {
     "@bifravst/eslint-config-typescript": "^1.0.0",
     "eslint": "^5.16.0",
