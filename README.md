@@ -55,4 +55,4 @@ Do not use `tsconfig.json` from code-style.
 
 For converting projects to use _code-style_:
 
-    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/code-style eslint lint-staged prettier typescript
+    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/code-style tslint lint-staged prettier typescript
