@@ -1,4 +1,4 @@
-# Bifravst Code Style [![npm version](https://img.shields.io/npm/v/@bifravst/code-style.svg)](https://www.npmjs.com/package/@bifravst/code-style)
+# Bifravst Code Style
 
 [![GitHub Actions](https://github.com/bifravst/code-style/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/code-style/actions)
 [![Greenkeeper badge](https://badges.greenkeeper.io/bifravst/code-style.svg)](https://greenkeeper.io/)
@@ -12,6 +12,15 @@ Code style definitions for all Bifravst projects.
 - ESLint configuration (with
   [TypeScript support](https://github.com/typescript-eslint/typescript-eslint))
 - Prettier configuration
+
+## Installation
+
+> Note: This package is hosted on the GitHub package registry and
+> [npm needs to be configured](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#installing-a-package)
+> in order to use it.
+
+    echo "@bifravst:registry=https://npm.pkg.github.com" >> .npmrc
+    npm i --save-dev @bifravst/code-style
 
 ## Usage
 
