@@ -24,7 +24,7 @@
     "eslint": "^6.5.1",
     "lint-staged": "^9.4.1",
     "prettier": "^1.18.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.0-beta"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
