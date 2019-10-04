@@ -6,7 +6,7 @@ on:
       - saga
 
 env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   release:
@@ -24,7 +24,7 @@ jobs:
         npm config set update-notifier false
     - name: Authenticate with NPM
       run: |
-        echo "//npm.pkg.github.com/:_authToken=$GH_TOKEN" > ~/.npmrc
+        echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" > ~/.npmrc
     - name: Install dependencies
       run: npm ci --no-audit
     - name: Semantic release
