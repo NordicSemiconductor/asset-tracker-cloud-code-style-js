@@ -11,6 +11,8 @@
     "noImplicitThis": true,
     "noImplicitReturns": true,
     "removeComments": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true
   }
 }
