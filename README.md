@@ -53,7 +53,7 @@ Use this `.eslintrc`
 
 ```json
 {
-  "extends": ["@bifravst/code-style", "react-app"]
+  "extends": ["@bifravst/eslint-config-typescript", "react-app"]
 }
 ```
 
