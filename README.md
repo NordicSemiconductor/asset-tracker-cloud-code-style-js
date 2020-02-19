@@ -49,6 +49,40 @@ Then:
 
 ## Use with React
 
+    npm install eslint-plugin-react --save-dev
+
+Use this `.eslintrc`
+
+```json
+{
+  "extends": ["@bifravst/eslint-config-typescript", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  }
+}
+```
+
+`tsconfig.json`:
+
+```json
+{
+  "extends": "@bifravst/code-style/tsconfig.json",
+  "include": ["src/*.tsx", "src/*.ts"],
+  "exclude": ["src/*.spec.ts"],
+  "compilerOptions": {
+    "outDir": "dist/",
+    "jsx": "react",
+    "lib": ["DOM", "ES5"],
+    "target": "es2018",
+    "esModuleInterop": true
+  }
+}
+```
+
+## Use with Creat React App
+
 Use this `.eslintrc`
 
 ```json
