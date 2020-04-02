@@ -22,7 +22,7 @@
   "dependencies": {
     "@bifravst/eslint-config-typescript": "^3.1.7",
     "eslint": "^6.8.0",
-    "lint-staged": "^10.0.10",
+    "lint-staged": "^10.1.0",
     "prettier": "^1.19.1"
   },
   "peerDependencies": {
