@@ -1,6 +1,5 @@
-# Bifravst Code Style
+# Bifravst Code Style [![npm version](https://img.shields.io/npm/v/@bifravst/code-style.svg)](https://www.npmjs.com/package/@bifravst/code-style)
 
-[![GitHub Package Registry version](https://img.shields.io/github/release/bifravst/code-style.svg?label=GPR&logo=github)](https://github.com/bifravst/code-style/packages/26699)
 [![GitHub Actions](https://github.com/bifravst/code-style/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/code-style/actions)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -15,11 +14,6 @@ Code style definitions for all Bifravst projects.
 
 ## Installation
 
-> Note: This package is hosted on the GitHub package registry and
-> [npm needs to be configured](https://help.github.com/en/articles/configuring-npm-for-use-with-github-package-registry#installing-a-package)
-> in order to use it.
-
-    echo "@bifravst:registry=https://npm.pkg.github.com" >> .npmrc
     npm i --save-dev @bifravst/code-style
 
 ## Usage
