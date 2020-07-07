@@ -3,6 +3,10 @@ pull_request_rules:
     conditions:
       - status-success=security/snyk (Bifravst)
     actions:
+      merge:
+        method: rebase
+        rebase_fallback: squash
+        bot_account: bifravst-ci
       label:
         add:
           - mergify
