@@ -24,7 +24,7 @@
     "eslint": "^7.5.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
-    "snyk": "^1.366.2"
+    "snyk": "^1.367.0"
   },
   "peerDependencies": {
     "typescript": "^3.8.0"
