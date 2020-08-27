@@ -4,8 +4,14 @@
   "packageRules": [
     {
       "updateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
-      "automerge": true
+      "automerge": true,
+      "rangeStrategy": "bump",
+      "depTypeList": [
+        "dependencies",
+        "devDependencies",
+        "optionalDependencies",
+        "peerDependencies"
+      ]
     }
-  ],
-  "rangeStrategy": "bump"
+  ]
 }
