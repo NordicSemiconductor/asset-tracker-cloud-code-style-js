@@ -20,7 +20,7 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@bifravst/eslint-config-typescript": "5.0.22",
+    "@bifravst/eslint-config-typescript": "5.0.23",
     "eslint": "7.8.1",
     "lint-staged": "10.2.13",
     "prettier": "2.1.1",
