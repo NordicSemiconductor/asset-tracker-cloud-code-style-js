@@ -21,7 +21,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@bifravst/eslint-config-typescript": "5.0.31",
-    "eslint": "7.8.1",
+    "eslint": "7.9.0",
     "lint-staged": "10.3.0",
     "prettier": "2.1.1",
     "snyk": "1.393.0"
