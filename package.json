@@ -22,7 +22,7 @@
   "dependencies": {
     "@bifravst/eslint-config-typescript": "5.0.38",
     "eslint": "7.9.0",
-    "lint-staged": "10.3.0",
+    "lint-staged": "10.4.0",
     "prettier": "2.1.2",
     "snyk": "1.398.1"
   },
