@@ -13,6 +13,7 @@
     "removeComments": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "moduleResolution": "node"
   }
 }
