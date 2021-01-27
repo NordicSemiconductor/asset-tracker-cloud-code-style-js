@@ -1,15 +1,15 @@
-# Bifravst Code Style [![npm version](https://img.shields.io/npm/v/@bifravst/code-style.svg)](https://www.npmjs.com/package/@bifravst/code-style)
+# Code Style definitions [![npm version](https://img.shields.io/npm/v/@nordicsemiconductor/asset-tracker-cloud-code-style.svg)](https://www.npmjs.com/package/@nordicsemiconductor/asset-tracker-cloud-code-style)
 
-[![GitHub Actions](https://github.com/bifravst/code-style/workflows/Semantic%20Release/badge.svg)](https://github.com/bifravst/code-style/actions)
-[![Known Vulnerabilities](https://snyk.io/test/github/bifravst/code-style/badge.svg)](https://snyk.io/test/github/bifravst/code-style)
+[![GitHub Actions](https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js/workflows/Semantic%20Release/badge.svg)](https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js/actions)
+[![Known Vulnerabilities](https://snyk.io/test/github/NordicSemiconductor/asset-tracker-cloud-code-style-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/NordicSemiconductor/asset-tracker-cloud-code-style-js?targetFile=package.json)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com)
-[![Mergify Status](https://img.shields.io/endpoint.svg?url=https://dashboard.mergify.io/badges/bifravst/code-style&style=flat)](https://mergify.io)
+[![Mergify Status](https://img.shields.io/endpoint.svg?url=https://dashboard.mergify.io/badges/NordicSemiconductor/asset-tracker-cloud-code-style-js&style=flat)](https://mergify.io)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier/)
 [![ESLint: TypeScript](https://img.shields.io/badge/ESLint-TypeScript-blue.svg)](https://github.com/typescript-eslint/typescript-eslint)
 
-Code style definitions for all Bifravst projects.
+Code Style definitions for all Asset Tracker Cloud Example projects
 
 - ESLint configuration (with
   [TypeScript support](https://github.com/typescript-eslint/typescript-eslint))
@@ -17,7 +17,7 @@ Code style definitions for all Bifravst projects.
 
 ## Installation
 
-    npm i --save-dev @bifravst/code-style
+    npm i --save-dev @nordicsemiconductor/asset-tracker-cloud-code-style
 
 ## Usage
 
@@ -31,17 +31,17 @@ Update your `package.json`:
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": ["prettier --write", "eslint --ext .js,.ts", "git add"],
-    "*.{md,json,yaml,yml,js}": ["prettier --write", "git add"]
+    "*.{ts,tsx}": ["prettier --write", "eslint --ext .js,.ts"],
+    "*.{md,json,yaml,yml,js}": ["prettier --write"]
   }
 }
 ```
 
 Then:
 
-    npm i --save-dev @bifravst/code-style
-    cp node_modules/@bifravst/code-style/templates/* ./
-    cp node_modules/@bifravst/code-style/templates/.* ./
+    npm i --save-dev @nordicsemiconductor/asset-tracker-cloud-code-style
+    cp node_modules/@nordicsemiconductor/asset-tracker-cloud-code-style/templates/* ./
+    cp node_modules/@nordicsemiconductor/asset-tracker-cloud-code-style/templates/.* ./
 
 ## Use with React
 
@@ -51,7 +51,10 @@ Use this `.eslintrc`
 
 ```json
 {
-  "extends": ["@bifravst/eslint-config-typescript", "plugin:react/recommended"],
+  "extends": [
+    "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
+    "plugin:react/recommended"
+  ],
   "settings": {
     "react": {
       "version": "latest"
@@ -64,7 +67,7 @@ Use this `.eslintrc`
 
 ```json
 {
-  "extends": "@bifravst/code-style/tsconfig.json",
+  "extends": "@nordicsemiconductor/asset-tracker-cloud-code-style/tsconfig.json",
   "include": ["src/*.tsx", "src/*.ts"],
   "exclude": ["src/*.spec.ts"],
   "compilerOptions": {
@@ -83,7 +86,10 @@ Use this `.eslintrc`
 
 ```json
 {
-  "extends": ["@bifravst/eslint-config-typescript", "react-app"]
+  "extends": [
+    "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
+    "react-app"
+  ]
 }
 ```
 
@@ -91,8 +97,8 @@ Use this `.eslintrc`
 
 Do not use `tsconfig.json` from code-style.
 
-## Migrating to @bifravst/code-style
+## Migrating to @nordicsemiconductor/asset-tracker-cloud-code-style
 
 For converting projects to use _code-style_:
 
-    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @bifravst/code-style tslint lint-staged prettier typescript
+    npm uninstall --save --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier lint-staged prettier semantic-release @nordicsemiconductor/asset-tracker-cloud-code-style tslint lint-staged prettier typescript

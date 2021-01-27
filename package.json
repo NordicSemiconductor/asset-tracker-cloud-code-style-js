@@ -1,28 +1,27 @@
 {
-  "name": "@bifravst/code-style",
+  "name": "@nordicsemiconductor/asset-tracker-cloud-code-style",
   "version": "0.0.0-development",
-  "description": "Code style definitions for all Bifravst projects.",
+  "description": "Code style definitions for all Asset Tracker Cloud Example projects.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bifravst/code-style.git"
+    "url": "git+https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js.git"
   },
   "bugs": {
-    "url": "https://github.com/bifravst/code-style/issues"
+    "url": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js/issues"
   },
-  "homepage": "https://bifravst.github.io/",
+  "homepage": "https://github.com/NordicSemiconductor/asset-tracker-cloud-code-style-js#readme",
   "keywords": [
     "Cloud",
     "IoT",
-    "Bifravst",
-    "Asset Tracker",
-    "NordicSemiconductor"
+    "Asset Tracker Cloud Example",
+    "Nordic Semiconductor"
   ],
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "@bifravst/eslint-config-typescript": "5.0.90",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-angular": "11.0.0",
+    "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript": "6.0.0",
     "eslint": "7.18.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.3",
