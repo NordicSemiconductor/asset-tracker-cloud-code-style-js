@@ -87,7 +87,7 @@ Use this `.eslintrc`
 ```json
 {
   "extends": [
-    "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
+    "./node_modules/@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript/index.js",
     "react-app"
   ]
 }
