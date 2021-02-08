@@ -52,7 +52,7 @@ Use this `.eslintrc`
 ```json
 {
   "extends": [
-    "@nordicsemiconductor/asset-tracker-cloud-eslint-config-typescript",
+    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript",
     "plugin:react/recommended"
   ],
   "settings": {
