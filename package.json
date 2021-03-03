@@ -37,7 +37,7 @@
   },
   "engines": {
     "node": ">=14.0.0",
-    "npm": ">=6.0.0"
+    "npm": ">=7.0.0"
   },
   "release": {
     "branches": [
@@ -64,6 +64,5 @@
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
-  "snyk": true,
-  "dependencies": {}
+  "snyk": true
 }
