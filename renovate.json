@@ -1,11 +1,11 @@
 {
   "extends": ["config:base"],
   "ignorePresets": [":prHourlyLimit2", ":prConcurrentLimit20"],
+  "rangeStrategy": "bump",
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "pin", "digest"],
       "automerge": true,
-      "rangeStrategy": "bump",
       "depTypeList": [
         "dependencies",
         "devDependencies",
@@ -17,7 +17,6 @@
       "matchUpdateTypes": ["patch", "lockFileMaintenance"],
       "automerge": true,
       "automergeType": "branch",
-      "rangeStrategy": "bump",
       "depTypeList": [
         "dependencies",
         "devDependencies",
