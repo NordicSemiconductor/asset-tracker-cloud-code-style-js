@@ -59,6 +59,7 @@
   "scripts": {
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "test": "npm exec -- renovate-config-validator"
   }
 }
