@@ -22,7 +22,7 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-angular": "13.1.0",
     "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "8.0.4",
-    "eslint": "7.31.0",
+    "eslint": "7.32.0",
     "husky": "7.0.1",
     "lint-staged": "11.1.1",
     "pinst": "2.1.6",
