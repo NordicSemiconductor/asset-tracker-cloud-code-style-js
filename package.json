@@ -17,7 +17,7 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@commitlint/cli": "16.0.3",
+    "@commitlint/cli": "16.1.0",
     "@commitlint/config-angular": "16.0.0",
     "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "9.0.2",
     "eslint": "8.7.0",
