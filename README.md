@@ -16,7 +16,7 @@ Code Style definitions for all nRF Asset Tracker projects
 
 ## Installation
 
-    npm i --save-dev @nordicsemiconductor/asset-tracker-cloud-code-style
+    npm i --save-dev --save-exact @nordicsemiconductor/asset-tracker-cloud-code-style
 
 ## Usage
 
@@ -38,7 +38,7 @@ Update your `package.json`:
 
 Then:
 
-    npm i --save-dev @nordicsemiconductor/asset-tracker-cloud-code-style
+    npm i --save-dev --save-exact @nordicsemiconductor/asset-tracker-cloud-code-style
     cp node_modules/@nordicsemiconductor/asset-tracker-cloud-code-style/templates/* ./
     cp node_modules/@nordicsemiconductor/asset-tracker-cloud-code-style/templates/.* ./
 
@@ -92,7 +92,7 @@ Use this `.eslintrc`
 }
 ```
 
-    npm i --save-dev babel-eslint@10.0.2 eslint-config-react-app@5.0.1 eslint-plugin-flowtype@4.2.0 eslint-plugin-import@2.18.2 eslint-plugin-jsx-a11y@6.2.3 eslint-plugin-react@7.14.3 eslint-plugin-react-app@6.0.0 eslint-plugin-react-hooks@1.7.0
+    npm i --save-dev --save-exact babel-eslint@10.0.2 eslint-config-react-app@5.0.1 eslint-plugin-flowtype@4.2.0 eslint-plugin-import@2.18.2 eslint-plugin-jsx-a11y@6.2.3 eslint-plugin-react@7.14.3 eslint-plugin-react-app@6.0.0 eslint-plugin-react-hooks@1.7.0
 
 Do not use `tsconfig.json` from code-style.
 
