@@ -19,7 +19,7 @@
   "dependencies": {
     "@commitlint/cli": "17.0.0",
     "@commitlint/config-angular": "17.0.0",
-    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "10.0.20",
+    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "10.0.21",
     "eslint": "8.16.0",
     "husky": "8.0.1",
     "lint-staged": "12.4.1",
