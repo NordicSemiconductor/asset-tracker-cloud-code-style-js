@@ -21,7 +21,7 @@
     "@commitlint/config-angular": "17.2.0",
     "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "10.0.48",
     "eslint": "8.27.0",
-    "husky": "8.0.1",
+    "husky": "8.0.2",
     "lint-staged": "13.0.3",
     "pinst": "3.0.0",
     "prettier": "2.7.1",
