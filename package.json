@@ -22,7 +22,7 @@
     "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "11.0.2",
     "eslint": "8.34.0",
     "husky": "8.0.3",
-    "lint-staged": "13.1.1",
+    "lint-staged": "13.1.2",
     "pinst": "3.0.0",
     "prettier": "2.8.4",
     "prettier-plugin-organize-imports": "3.2.2",
