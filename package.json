@@ -28,7 +28,7 @@
     "typescript": "5.2.2"
   },
   "peerDependencies": {
-    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "16.0.2"
+    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "16.0.22"
   },
   "lint-staged": {
     "*.{yml,md,js,json}": [
