@@ -27,9 +27,6 @@
     "prettier-plugin-organize-imports": "3.2.3",
     "typescript": "5.2.2"
   },
-  "peerDependencies": {
-    "@nordicsemiconductor/eslint-config-asset-tracker-cloud-typescript": "16.0.22"
-  },
   "lint-staged": {
     "*.{yml,md,js,json}": [
       "prettier --write --config .prettierrc.js"
