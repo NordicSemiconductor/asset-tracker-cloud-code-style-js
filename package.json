@@ -17,7 +17,7 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@commitlint/cli": "17.7.1",
+    "@commitlint/cli": "17.7.2",
     "@commitlint/config-angular": "17.7.0",
     "eslint": "8.50.0",
     "husky": "8.0.3",
