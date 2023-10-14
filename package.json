@@ -18,7 +18,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@commitlint/cli": "17.7.2",
-    "@commitlint/config-angular": "17.7.0",
+    "@commitlint/config-angular": "17.8.0",
     "eslint": "8.51.0",
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
