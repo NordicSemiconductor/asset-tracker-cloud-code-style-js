@@ -18,7 +18,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "@commitlint/cli": "18.0.0",
-    "eslint": "8.51.0",
+    "eslint": "8.52.0",
     "husky": "8.0.3",
     "lint-staged": "15.0.2",
     "pinst": "3.0.0",
