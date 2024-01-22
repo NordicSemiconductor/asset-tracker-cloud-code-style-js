@@ -17,7 +17,7 @@
   "author": "Nordic Semiconductor ASA | nordicsemi.no",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@commitlint/cli": "18.4.4",
+    "@commitlint/cli": "18.5.0",
     "eslint": "8.56.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
@@ -70,6 +70,6 @@
     "test": "npm exec -- renovate-config-validator"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "18.4.4"
+    "@commitlint/config-conventional": "18.5.0"
   }
 }
